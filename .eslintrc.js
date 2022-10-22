@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2020: true,
     node: true,
-    jest: true,
+    jest: true
   },
   extends: [
     'plugin:react/recommended',
@@ -18,10 +18,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 11,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
@@ -36,10 +36,10 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      typescript: {},
+      typescript: {}
     },
     react: {
-      version: 'detect',
-    },
-  },
+      version: 'detect'
+    }
+  }
 }
